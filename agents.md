@@ -19,5 +19,6 @@
 ## Implementação
 - Priorize HTML, CSS e JavaScript simples, acessíveis e responsivos, adequados à publicação no GitHub Pages.
 - Preserve uma estrutura leve, sem dependências externas desnecessárias.
+- Mantenha disponível a alternância acessível entre tema claro e escuro, persistindo a escolha no navegador.
 - Use semântica HTML, contraste legível, foco visível e suporte a telas pequenas.
 - Antes de alterar conteúdo pessoal, conferir estas instruções e `main.md`.

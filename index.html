@@ -12,7 +12,13 @@
     <main class="page-shell">
       <header class="topbar">
         <a class="wordmark" href="#inicio" aria-label="Maicon R. Winter, início">MRW<span>.</span></a>
-        <span class="topbar-note">Portfólio pessoal</span>
+        <div class="topbar-tools">
+          <span class="topbar-note">Portfólio pessoal</span>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Ativar tema escuro" aria-pressed="false">
+            <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+            <span class="theme-toggle-label">Tema escuro</span>
+          </button>
+        </div>
       </header>
 
       <section class="intro" id="inicio" aria-labelledby="name">
@@ -55,5 +61,37 @@
         <a href="mailto:maiconwinter0902@gmail.com">maiconwinter0902@gmail.com <span aria-hidden="true">↗</span></a>
       </footer>
     </main>
+    <script>
+      (() => {
+        const storageKey = "maicon-portfolio-theme";
+        const root = document.documentElement;
+        const toggle = document.querySelector("[data-theme-toggle]");
+        const label = toggle.querySelector(".theme-toggle-label");
+        const icon = toggle.querySelector(".theme-toggle-icon");
+        let savedTheme = "light";
+        try {
+          savedTheme = localStorage.getItem(storageKey) || "light";
+        } catch {}
+
+        root.dataset.theme = savedTheme === "dark" ? "dark" : "light";
+
+        const updateToggle = () => {
+          const isDark = root.dataset.theme === "dark";
+          toggle.setAttribute("aria-label", isDark ? "Ativar tema claro" : "Ativar tema escuro");
+          toggle.setAttribute("aria-pressed", String(isDark));
+          label.textContent = isDark ? "Tema claro" : "Tema escuro";
+          icon.textContent = isDark ? "☀" : "☾";
+        };
+
+        updateToggle();
+        toggle.addEventListener("click", () => {
+          root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+          try {
+            localStorage.setItem(storageKey, root.dataset.theme);
+          } catch {}
+          updateToggle();
+        });
+      })();
+    </script>
   </body>
 </html>
