@@ -66,8 +66,10 @@ h1 span { color: var(--green); font-family: Georgia, serif; font-style: italic; 
 .portrait-wrap { min-height: 375px; display: grid; place-items: center; position: relative; }
 .portrait-card { width: min(100%, 350px); position: relative; z-index: 1; padding: 12px; background: var(--portrait-paper); box-shadow: 0 25px 65px var(--portrait-shadow); transform: rotate(2deg); }
 .portrait-placeholder { aspect-ratio: 4 / 4.3; display: grid; place-items: center; overflow: hidden; background: linear-gradient(145deg, var(--portrait-top), var(--portrait-mid) 55%, var(--portrait-bottom)); color: #f7f4ed; }
-.portrait-placeholder span { font-family: Georgia, serif; font-size: 84px; font-style: italic; letter-spacing: -.1em; opacity: .9; }
+.portrait-img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 24%; }
 .portrait-caption { min-height: 64px; display: flex; align-items: center; gap: 12px; padding: 8px 12px 0; color: var(--muted); font-family: Georgia, serif; font-size: 14px; line-height: 1.35; }
+.portrait-caption a { color: var(--muted); font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; text-decoration: underline; text-underline-offset: 2px; }
+.portrait-caption a:hover { color: var(--green); }
 .caption-mark { color: var(--orange); font-family: 'Segoe UI', Arial, sans-serif; font-size: 24px; }
 .orbit { position: absolute; display: block; border: 1px solid var(--orbit); border-radius: 50%; }
 .orbit-one { width: 365px; height: 365px; }

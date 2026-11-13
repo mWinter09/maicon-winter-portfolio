@@ -12,12 +12,13 @@ Site de portfólio pessoal para publicação no GitHub Pages. A construção com
 - Características a destacar: colaboração e comunicação
 - E-mail público de contato: maiconwinter0902@gmail.com
 - Perfis sociais: ainda não informados
-- Foto: desejada para a apresentação, mas ainda não fornecida
+- Avatar: ilustração em domínio público de Pearson Scott Foresman, via Wikimedia Commons.
+- Fonte do avatar: https://commons.wikimedia.org/wiki/File:Mousquetaire_(PSF).png
 
 ## Diretrizes de interface
 - Idioma: português do Brasil.
 - Prioridade desta etapa: apresentação social e biográfica.
-- Apresentação inicial deve acomodar foto e breve biografia; enquanto a foto não for enviada, mostrar um espaço reservado com iniciais.
+- Apresentação inicial deve acomodar o avatar e a breve biografia.
 - Mostrar e-mail como link `mailto:`.
 - Não incluir dados geográficos no conteúdo público.
 - Não mostrar ícones ou links de redes sociais sem URLs confirmadas.
@@ -28,6 +29,6 @@ Site de portfólio pessoal para publicação no GitHub Pages. A construção com
 
 ## Próximos dados necessários
 - Texto ou fatos da biografia (curso, instituição, situação atual e interesses que queira divulgar).
-- Arquivo da foto de perfil, se quiser substituir o espaço reservado.
+- Arquivo de foto de perfil, se quiser substituir o avatar atual.
 - URLs dos perfis sociais que desejar publicar.
 - Paleta visual e preferências de gráficos, tabelas e relatórios para as próximas etapas.

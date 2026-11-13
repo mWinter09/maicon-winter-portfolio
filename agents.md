@@ -13,7 +13,7 @@
 - Preferência de tom: pessoal e acolhedor. Destacar colaboração e comunicação.
 - Não publicar endereço residencial, telefone ou dados pessoais além dos aprovados acima.
 - Não criar links sociais inexistentes. Adicionar perfis somente quando o proprietário fornecer URLs.
-- A foto de perfil ainda não foi fornecida; usar um espaço reservado discreto e substituível, sem buscar ou fabricar uma foto da pessoa.
+- O avatar atual é uma ilustração de mosqueteiro em domínio público; preserve o arquivo e o link da fonte.
 - Não inclua dados geográficos no conteúdo público do portfólio.
 
 ## Implementação
