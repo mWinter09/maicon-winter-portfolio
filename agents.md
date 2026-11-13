@@ -9,12 +9,12 @@
 - Use apenas informações fornecidas pelo proprietário. Não invente formação concluída, cargos, experiência, projetos, conquistas ou perfis sociais.
 - Nome público: Maicon R. Winter.
 - Área de estudo informada: Ciências Contábeis. Não presumir que o curso foi concluído.
-- Local informado: Passo Fundo, RS.
 - E-mail informado para contato: maiconwinter0902@gmail.com.
 - Preferência de tom: pessoal e acolhedor. Destacar colaboração e comunicação.
 - Não publicar endereço residencial, telefone ou dados pessoais além dos aprovados acima.
 - Não criar links sociais inexistentes. Adicionar perfis somente quando o proprietário fornecer URLs.
 - A foto de perfil ainda não foi fornecida; usar um espaço reservado discreto e substituível, sem buscar ou fabricar uma foto da pessoa.
+- Não inclua dados geográficos no conteúdo público do portfólio.
 
 ## Implementação
 - Priorize HTML, CSS e JavaScript simples, acessíveis e responsivos, adequados à publicação no GitHub Pages.
