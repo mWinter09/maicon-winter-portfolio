@@ -121,3 +121,7 @@ h2 em { color: var(--green); font-family: Georgia, serif; font-weight: 500; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+
+html, body { overflow-x: clip; }
+.portrait-img { object-fit: contain; object-position: center; }
