@@ -11,14 +11,14 @@
   <body>
     <main class="page-shell">
       <header class="topbar">
-        <a class="wordmark" href="#inicio" aria-label="Maicon R. Winter, início">MRW<span>.</span></a>
-        <div class="topbar-tools">
-          <span class="topbar-note">Portfólio pessoal</span>
+        <span class="topbar-note">Portfólio pessoal</span>
+        <nav class="topbar-tools" aria-label="Navegação principal">
+          <a class="nav-link" href="#projetos">Projetos</a>
           <button class="theme-toggle" type="button" data-theme-toggle aria-label="Ativar tema escuro" aria-pressed="false">
             <span class="theme-toggle-icon" aria-hidden="true">☾</span>
             <span class="theme-toggle-label">Tema escuro</span>
           </button>
-        </div>
+        </nav>
       </header>
 
       <section class="intro" id="inicio" aria-labelledby="name">
@@ -27,7 +27,7 @@
           <h1 id="name">Maicon R.<br /><span>Winter</span></h1>
           <p class="summary">Estudante de Ciências Contábeis, interessado em aprender, compartilhar ideias e construir boas parcerias.</p>
           <div class="actions">
-            <a class="button button-primary" href="mailto:maiconwinter0902@gmail.com">Entre em contato <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="mailto:maiconwinter0902@gmail.com">Entre em contato <span class="contact-email">maiconwinter0902@gmail.com</span><span aria-hidden="true">↗</span></a>
             <a class="text-link" href="#sobre">Conheça minha história <span aria-hidden="true">↓</span></a>
           </div>
         </div>
@@ -54,6 +54,15 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="projects" id="projetos" aria-labelledby="projects-title">
+        <div class="section-label"><span>02</span> PROJETOS</div>
+        <div class="projects-content">
+          <h2 id="projects-title">Projetos em <em>destaque.</em></h2>
+          <p>Este espaço reunirá meus projetos, gráficos, tabelas e relatórios.</p>
+        </div>
+        <div class="projects-empty">Novos projetos em breve</div>
       </section>
 
       <footer class="footer">

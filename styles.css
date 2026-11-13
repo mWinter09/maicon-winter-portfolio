@@ -5,6 +5,7 @@
   --muted: #68736e;
   --green: #285a49;
   --green-dark: #1d4437;
+  --button-ink: #ffffff;
   --line: #d9ddd5;
   --orange: #d8875b;
   --portrait-paper: #fffdf8;
@@ -22,6 +23,7 @@
   --muted: #b0bdb4;
   --green: #9bc9af;
   --green-dark: #78aa90;
+  --button-ink: #17201c;
   --line: #35463d;
   --orange: #e5a078;
   --portrait-paper: #222e28;
@@ -39,10 +41,10 @@ a { color: inherit; }
 a:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
 .page-shell { max-width: 1180px; padding: 0 58px; margin: 0 auto; }
 .topbar { height: 88px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.wordmark { font-size: 19px; font-weight: 700; letter-spacing: -.06em; text-decoration: none; }
-.wordmark span { color: var(--orange); }
 .topbar-tools { display: flex; align-items: center; gap: 20px; }
 .topbar-note { color: var(--muted); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.nav-link { color: var(--green); font-size: 13px; font-weight: 600; text-decoration: none; }
+.nav-link:hover { color: var(--orange); }
 .theme-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); font: inherit; font-size: 12px; cursor: pointer; transition: background .2s, border-color .2s; }
 .theme-toggle:hover { background: color-mix(in srgb, var(--green) 10%, transparent); border-color: var(--green); }
 .theme-toggle:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
@@ -56,8 +58,9 @@ h1 span { color: var(--green); font-family: Georgia, serif; font-style: italic; 
 .summary { max-width: 425px; margin: 28px 0 30px; color: var(--muted); font-size: 16px; line-height: 1.8; }
 .actions { display: flex; align-items: center; gap: 27px; flex-wrap: wrap; }
 .button { display: inline-flex; align-items: center; gap: 22px; padding: 14px 18px; border-radius: 4px; font-size: 13px; font-weight: 600; text-decoration: none; transition: background .2s, transform .2s; }
-.button-primary { color: white; background: var(--green); }
+.button-primary { color: var(--button-ink); background: var(--green); }
 .button-primary:hover { background: var(--green-dark); transform: translateY(-2px); }
+.contact-email { font-size: 12px; font-weight: 500; }
 .text-link { color: var(--muted); font-size: 13px; text-decoration: none; }
 .text-link:hover, .footer a:hover { color: var(--green); }
 .portrait-wrap { min-height: 375px; display: grid; place-items: center; position: relative; }
@@ -80,6 +83,11 @@ h2 em { color: var(--green); font-family: Georgia, serif; font-weight: 500; }
 .detail-row div { display: grid; gap: 8px; }
 .detail-label { color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .1em; }
 .detail-row strong { font-size: 13px; font-weight: 600; }
+.projects { padding: 40px 0 76px; border-top: 1px solid var(--line); }
+.projects-content { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: end; margin-top: 32px; }
+.projects-content h2 { margin: 0; }
+.projects-content > p { max-width: 460px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.projects-empty { margin-top: 30px; padding: 28px; border: 1px dashed var(--line); border-radius: 4px; color: var(--muted); font-size: 13px; text-align: center; }
 .footer { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
 .footer a { text-decoration: none; }
 .footer a span { color: var(--orange); margin-left: 5px; }
@@ -95,10 +103,15 @@ h2 em { color: var(--green); font-family: Georgia, serif; font-weight: 500; }
   .orbit-two { width: 350px; height: 350px; }
   .about-content { grid-template-columns: 1fr; gap: 24px; }
   .about { padding-bottom: 56px; }
+  .projects-content { grid-template-columns: 1fr; gap: 20px; }
+  .projects { padding-bottom: 56px; }
   .detail-row { gap: 30px; }
 }
 @media (max-width: 420px) {
   .page-shell { padding: 0 18px; }
+  .topbar-tools { gap: 10px; }
+  .topbar-note { font-size: 10px; letter-spacing: .04em; }
+  .theme-toggle { padding: 7px 9px; font-size: 11px; }
   .actions { align-items: flex-start; flex-direction: column; gap: 17px; }
   .footer { align-items: flex-start; flex-direction: column; justify-content: center; padding: 18px 0; gap: 9px; }
 }

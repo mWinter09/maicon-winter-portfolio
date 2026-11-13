@@ -23,6 +23,8 @@ Site de portfólio pessoal para publicação no GitHub Pages. A construção com
 - Não mostrar ícones ou links de redes sociais sem URLs confirmadas.
 - Layout responsivo, acessível e pronto para GitHub Pages.
 - Alternância entre tema claro e escuro com preferência salva no navegador; o tema claro é o padrão inicial.
+- Navegação inclui uma aba Projetos com espaço para projetos, gráficos, tabelas e relatórios.
+- Exibir o e-mail informado no botão de contato.
 
 ## Próximos dados necessários
 - Texto ou fatos da biografia (curso, instituição, situação atual e interesses que queira divulgar).
