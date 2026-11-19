@@ -32,3 +32,8 @@ Site de portfólio pessoal para publicação no GitHub Pages. A construção com
 - Arquivo de foto de perfil, se quiser substituir o avatar atual.
 - URLs dos perfis sociais que desejar publicar.
 - Paleta visual e preferências de gráficos, tabelas e relatórios para as próximas etapas.
+
+
+## Projeto em destaque
+- Vitto — Dados e Estudos: https://vitto-dados-e-estudos.woodsy-flea-2509.chatgpt.site/
+- O link pode solicitar login no ChatGPT.
