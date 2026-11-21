@@ -25,6 +25,7 @@ Site de portfólio pessoal para publicação no GitHub Pages. A construção com
 - Layout responsivo, acessível e pronto para GitHub Pages.
 - Alternância entre tema claro e escuro com preferência salva no navegador; o tema claro é o padrão inicial.
 - Navegação inclui uma aba Projetos com espaço para projetos, gráficos, tabelas e relatórios.
+- Projeto: Vitto — Dados e Estudos, publicado na pasta `vitto/` deste site, com dashboard, relatório estatístico, apresentação e wiki de estudos.
 - Exibir o e-mail informado no botão de contato.
 
 ## Próximos dados necessários
@@ -32,8 +33,3 @@ Site de portfólio pessoal para publicação no GitHub Pages. A construção com
 - Arquivo de foto de perfil, se quiser substituir o avatar atual.
 - URLs dos perfis sociais que desejar publicar.
 - Paleta visual e preferências de gráficos, tabelas e relatórios para as próximas etapas.
-
-
-## Projeto em destaque
-- Vitto — Dados e Estudos: https://vitto-dados-e-estudos.woodsy-flea-2509.chatgpt.site/
-- O link pode solicitar login no ChatGPT.
